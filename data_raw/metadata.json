@@ -1,0 +1,70 @@
+{
+    "description": "This dataset contains listings of used cars, with various attributes that describe each car.",
+    "target_variable": "Price",
+    "target_variable_description": "The price of the used cars, measured in lakhs.",
+    "features": [
+        {
+            "name": "Name",
+            "type": "Categorical",
+            "description": "The make and model of the car."
+        },
+        {
+            "name": "Location",
+            "type": "Categorical",
+            "description": "The location or city where the car is sold."
+        },
+        {
+            "name": "Year",
+            "type": "Numerical",
+            "description": "The year the car was manufactured."
+        },
+        {
+            "name": "Mileage",
+            "type": "Numerical",
+            "description": "The mileage of the car, indicating fuel efficiency."
+        },
+        {
+            "name": "Kilometers_Driven",
+            "type": "Numerical",
+            "description": "The total kilometers driven by the car, as shown by the odometer."
+        },
+        {
+            "name": "Fuel_Type",
+            "type": "Categorical",
+            "description": "The type of fuel the car uses (petrol or diesel)."
+        },
+        {
+            "name": "Transmission",
+            "type": "Categorical",
+            "description": "The type of transmission of the car (manual or automatic)."
+        },
+        {
+            "name": "Owner_Type",
+            "type": "Numerical",
+            "description": "The number of previous owners of the car."
+        },
+        {
+            "name": "Engine",
+            "type": "Numerical",
+            "description": "The displacement of the car's engine, typically in cc (cubic centimeters)."
+        },
+        {
+            "name": "Power",
+            "type": "Numerical",
+            "description": "The horsepower output of the car's engine."
+        },
+        {
+            "name": "Seats",
+            "type": "Numerical",
+            "description": "The number of seats in the car."
+        },
+        {
+            "name": "New_Price",
+            "type": "Numerical",
+            "description": "The price of the car when it was new, measured in lakhs."
+        }
+    ],
+    "data_format": "Tabular",
+    "row_description": "Each row represents a specific used car listing.",
+    "column_description": "Each column represents a particular attribute or feature of the cars."
+}
